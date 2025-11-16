@@ -17,5 +17,7 @@ softenBtn.addEventListener("click", async () => {
         target: { tabId },
         files: ["softener.css"],
     })
-    .then(() => console.log("Injected softener.css"))
+        .then(() => {
+            
+        })
 })

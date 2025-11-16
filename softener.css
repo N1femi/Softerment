@@ -1,7 +1,7 @@
-body {
-    background-color: #f1e9db;
+article, div[id^="story-ad"] {
+    background-color: #f1e9db !important;
 }
 
-p, :is(h1, h2, h3, h4, h5) {
-    color: #1d201f;
+article > p, article > :is(h1, h2, h3, h4, h5) {
+    color: #1d201f !important;
 }
